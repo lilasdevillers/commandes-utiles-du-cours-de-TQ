@@ -19,6 +19,10 @@ library(clipr)
 EE20 <- read.csv("FD_csv_EEC20.csv", sep=";")
 View(EE20)
 
+# J'utilise ici les données de l'enquête-emploi 2020 et plus précisément la variable ACTOP
+# qui s'intéresse au statut actif occupé. Ainsi la fréquence de 1 ici fait référence aux personnes
+# actives occupées au sens du BIT. 
+
 
 #################################################################################################################################################################
 ##################### test des commandes du cours - intervalles de confiance et test- utilisation de la variable ACTOP de l'EE2020 ##############################
